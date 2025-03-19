@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+/* ID usa # e é único */
+#flexbox1{
+/* Formatação Básica */
+    background-color: #8948c5;
+    padding: 15px;
+    height: 500px;
+
+/* Propriedades Flexbox */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CLASS usa "." e é reutilizável */
+.bloco-1{
+    background-color: #d18fb3;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.bloco-2{
+    background-color: #d1a98f;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.bloco-3{
+    background-color: #c5d18f;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+#flexbox2{
+/* Formatação básica */
+    background-color: #f5f5dc;
+    padding: 15px;
+    height: 300px;
+    
+/* Propriedades Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 20px;
+}
